@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import style from "../Card/cardStyle.module.css";
 import { ButtonPrimary } from "../Commons/Buttons";
-import { useState } from "react";
 
 export const Card = ({ 
     isNew = true,
