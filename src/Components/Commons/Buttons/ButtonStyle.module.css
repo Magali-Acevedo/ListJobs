@@ -1,0 +1,26 @@
+.colorPrimary{
+    background-color: var(--primary);
+}
+.colorNeutralVeryDark{
+    background-color: var(--neutral-veryDark);
+}
+
+.btnFilled {
+    padding: 6px 8px ;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+/*BTN primary*/
+.buttonPrimary {
+ padding: 6px 12px;
+ border-radius: 4px;
+ font-weight: 600;
+ color: var(--primary);
+ background: var(--neutral-bg);
+}
+.buttonPrimary:hover {
+    background-color: var(--primary);
+    color: var(--neutral-bg);
+    cursor: pointer;
+}
