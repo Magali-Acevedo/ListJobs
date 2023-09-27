@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import style from "../Card/cardStyle.module.css";
 import { ButtonPrimary } from "../Commons/Buttons";
+import { useContext } from "react";
+import { FilterProvider } from "../../Context";
 
 export const Card = ({ 
     isNew = true,
@@ -21,7 +23,7 @@ export const Card = ({
 
 }) => {
 
-
+const context =useContext(FilterProvider)
   return (
     <>
       <article className={style.wrapper}>

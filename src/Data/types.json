@@ -1,0 +1,5 @@
+{
+    "languages":["JavaScript", "Python","Ruby","HTML","CSS"],
+    "role":["Frontend", "Backend","Fullstack"],
+    "level":["Junior","Midweight","Senior"]
+}

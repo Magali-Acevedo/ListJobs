@@ -18,7 +18,7 @@ export const Header =()=>{
                     context.filter.map((element,index)=>
  (                   <li className={style.btnFilter} key={index}>
                     <span className={style.btnFilterText}> {element} </span>
-                    <span className={style.btnFilterClose}>X</span>
+                    <span className={style.btnFilterClose} onClick={context.clearSelectFilter}>X</span>
                     </li>)
                     )
                 }
